@@ -4,19 +4,19 @@ using System.Text;
 
 namespace OOP3
 {
-    class DatabaseLoggerService : ILoggerService
+    class DatabaseLoggerService : ILoggerService  //veritabanına loglama yapacak süreç
     {
         public void Log()
         {
+
+
             Console.WriteLine("Veritabanına Loglandı");
 
+        }
+    }
 
 
-
-}   }   }
- 
-
-
+}
 
 
 
